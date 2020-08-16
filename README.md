@@ -6,7 +6,7 @@
 Tech:
 Python, Flask, Docker
 
-Buld, Run & Push
+Build, Run & Push
 + docker build -t laakkonen/todo:latest .
-+ docker run -it laakkonen/todo:latest
++ docker run -d -p 5000:5000 laakkonen/todo:latest
 + docker push laakkonen/todo:latest
