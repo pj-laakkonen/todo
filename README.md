@@ -4,6 +4,4 @@
 # petri@laakkonen.io
 
 Tech:
-Python, Flask
-
-#
+Python, Flask, Docker
