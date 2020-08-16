@@ -10,9 +10,8 @@ node {
     }
 
     stage('Test image') {
-        app.inside {
-            sh 'echo "Robot Framework tests passed"'
-        }
+        /* Robot Framework tests*/
+
     }
 
     stage('Push image') {
@@ -22,8 +21,7 @@ node {
         }
     }
     stage('Deploy image: prod') {
-        app.inside {
-            sh 'echo "Deploying to production"'
-        }
+        /* Deploying to production*/
+
     }
 }
