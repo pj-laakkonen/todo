@@ -11,7 +11,7 @@ node {
 
     stage('Test image') {
         app.inside {
-            sh 'echo Robot Framework tests passed'
+            sh 'echo "Robot Framework tests passed"'
         }
     }
 
@@ -23,7 +23,7 @@ node {
     }
     stage('Deploy image: prod') {
         app.inside {
-            sh 'Deploying to production'
+            sh 'echo "Deploying to production"'
         }
     }
 }
