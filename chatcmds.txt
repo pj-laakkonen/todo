@@ -1,0 +1,30 @@
+git clone https://github.com/jkries/mybot.git
+
+http://127.0.0.1/
+tai
+localhost
+
+
+python train.py
+
+python chat.py
+
+botConfig.py
+Säädöt
+
+python trainlog.py
+Opetetaan keskustelun avulla
+
+Pythonanywhere:
+Python3 trainlogPE.py
+
+
+Data:
+https://github.com/Microsoft/BotBuilder-PersonalityChat/tree/master/CSharp/Datasets
+Käytössä: Friendly ja Pro
+
+https://lionbridge.ai/datasets/15-best-chatbot-datasets-for-machine-learning/
+
+Stora Enso Publication Paper Veitsiluoto mill decided as a first in the whole Stora Enso to start to create it’s own mill cased virtual learning environment as thesis.
+
+The goal for this thesis is to tell how it has succeeded and which casesshould be considered when starting a corresponding project and to give asgood advices as possibly for future follow-up research.
